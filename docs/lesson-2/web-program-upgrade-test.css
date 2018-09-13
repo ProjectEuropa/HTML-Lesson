@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+html,body {
+	height: 100%;
+	margin-top: 20px;
+}
+#header-title {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #2d032d;
+	font-weight: 700;
+	font-size: large;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.nav-content {
+	border-top: solid 0.5px #dcd8d8;
+    border-bottom: solid 0.5px #dcd8d8;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.ul-float li {
+	width: 20%;
+	float: left;
+	border-left: solid 0.5px #dcd8d8;
+}
+.ul-float li:last-child {
+	border-right: solid 0.5px #dcd8d8;
+}
+.ul-float {
+	text-align: center;
+	margin: auto;
+	width: 1000px;
+}
+.ul-float li a:hover {
+	background: #BBB4B4;
+}
+li a {
+	display: block;
+}
+
+#main-content {
+	height: 80%;
+	width: 1000px;
+	margin: auto;
+	border-left: solid 0.1px #dcd8d8;
+}
+#image-content {
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+.article-sub-content {
+	float: left;
+	width: 400px;
+}
+#article-content {
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+#aside-content {
+	width: 30%;
+	height: 100%;
+	float: left;
+	border-left: solid 0.1px #dcd8d8;
+	border-right: solid 0.1px #dcd8d8
+}
+#menu {
+	margin-top: 10px;
+	margin-left: 15px;
+}
+#section-materials {
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 20px;
+}
+#cook-process {
+	margin-top: 40px;
+	margin-left: 15px;
+	margin-right: 50px;
+}
+#menu-title {
+	color: #ACD906;
+	font-weight: 700;
+}
+#menu-details {
+	margin-top: 10px;
+	margin-right: 50px;
+	font-size: 0.8em;
+}
+h3.aside-sub-title {
+	color: #6f6284;
+	font-weight: 700;
+	margin-left: -20px
+}
+h2.cook-subhead {
+	color: #BC9D91;
+	font-weight: 600;
+}
+.cook-process-details {
+	font-size: 0.8em;
+}
+.individual-material {
+	border-bottom: solid 0.2px #dcd8d8;
+	font-size: 0.8em;
+	margin-top: 10px;
+	margin-right: 50px
+}
+.salt {
+	border: none;
+}
+.menu-categories {
+	margin-left: -20px;
+	margin-top: 5px;
+	font-size: 0.8em;
+}
+ol {
+	list-style-type: decimal;
+}
+ol li {
+	font-size: 0.8em;
+}
+#category {
+	margin-left: 40px;
+	margin-top: 10px;
+}
+#ranking {
+	margin-left: 40px;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+
+#copyriht {
+	text-align: center;
+	border-top: solid 1px #dcd8d8;
+	padding-top: 20px;
+}
